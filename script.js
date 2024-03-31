@@ -13,7 +13,7 @@ arr.forEach(button => {
             string = "";
             input.value = string;
         }
-        else if(e.target.innerHTML == 'DEl'){
+        else if(e.target.innerHTML == 'Del'){
             String = string.substring(0,string.length-1);
             input.value = string;
         }
